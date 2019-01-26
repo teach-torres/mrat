@@ -11,7 +11,7 @@ y Resolucion 610/2010), diseño de los Sistemas de Vigilancia de la Calidad del 
 en el pais y lineamientos para la operacion de los mismos (Resolucion 650 de
 2010 y 2154 de 2010).
 
-# Calidad del Aire
+# Conceptos Generales
 
 Conceptos generales de calidad del aire, contaminacion atmosferica y leyes fundamentales
 de gases
