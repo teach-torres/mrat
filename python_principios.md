@@ -134,7 +134,7 @@ var = expression
 Una expresión puede ser un literal, un cálculo, una llamada a una función o una combinación de los tres. Algunas expresiones generan una lista de valores; por ejemplo:
 
 
-``` pythn
+``` python
 var1, var2, var3 = expression
 
 ``` 
