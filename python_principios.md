@@ -183,15 +183,12 @@ Colons can be used to align columns.
 
 La asignación múltiple proporciona una notación ligeramente más corta, donde varias variables reciben el mismo valor a la vez.
 
-Esta asignación es equivalente a
+| Esta asignación | es equivalente a | 
+| --------------- |:-----------------| 
+| a = b = c = 1   | a = 1            |
+|                 | b = 1            |
+|                 | c = 1            |            
 
-``` python
-a = b = c = 1
-
-a = 1
-b = 1
-c = 1
-``` 
 La llamada asignación múltiple proporciona una notación ligeramente más corta, donde varias variables reciben sus valores a la vez.
 
 Esta asignación Explicación
