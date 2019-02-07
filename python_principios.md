@@ -80,5 +80,35 @@ else:
     do_other()
     ...
 
+# En este ejemplo, el texto entre comillas es una cadena de 
+# caraceres. Este texto es lo que un comando de ayuda 
+# (addTwoNumbers) mostraría en el intérprete interactivo.
+
+def addTwoNumbers(a, b):
+    "adds two numbers"
+    return a + b
+
+# El carácter de barra invertida (\) al final de la línea 
+# indica que la instrucción se extiende a la línea siguiente. 
+# Algunas declaraciones muy largas podrían extenderse sobre 
+# varias líneas.
+
+if long_var is True && \
+    middle==10 && \
+    small_var is False:
+    ...
+    ...
+
 ``` 
+
+La sangría se logra con mayor frecuencia utilizando incrementos de cuatro espacios.
+
+``` python
+a = b + c ; p = q + r
+a = b + c
+p = q + r
+
+``` 
+
+El carácter de punto y coma (;) se puede utilizar para unir varias declaraciones en una sola línea. La primera línea es equivalente a las dos líneas que la siguen.
 
