@@ -49,30 +49,36 @@ Python, como todos los lenguajes de programación, tiene convenciones que debemo
 
 Introducimos sangría y comentarios con algunos ejemplos.
 
-# Cualquier texto que aparezca después de un carácter hash (#) es ignorado por el intérprete y tratado como un comentario. Usamos comentarios para proporcionar documentación.
+``` python
+# Cualquier texto que aparezca después de un carácter hash (#) es 
+ignorado por el intérprete y tratado como un comentario. Usamos 
+comentarios para proporcionar documentación.
 
-``` 
 #
 # some text after hashes
 #
 brdr = 2 # thick border
 
-# El carácter de dos puntos (:) denota el final de una línea de encabezado que marca un bloque de código. Las declaraciones que siguen a la línea del encabezado deben estar sangradas.
+# El carácter de dos puntos (:) denota el final de una línea de 
+encabezado que marca un bloque de código. Las declaraciones que 
+siguen a la línea del encabezado deben estar sangradas.
 
 def my_func(a, b, c):
-d = a + b + c
+    d = a + b + c
 ...
 ...
 
-# Los dos puntos se usan con más frecuencia al final de if, elif, else, while, y para sentencias y definiciones de funciones (que comienzan con la palabra clave def).
+# Los dos puntos se usan con más frecuencia al final de if, elif, 
+else, while, y para sentencias y definiciones de funciones (que 
+comienzan con la palabra clave def).
 
 if this_var==23:
-doThis()
-doThat()
-...
+    doThis()
+    doThat()
+    ...
 else:
-do_other()
-...
+    do_other()
+    ...
 
 ``` 
 
