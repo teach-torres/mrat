@@ -189,22 +189,13 @@ La asignación múltiple proporciona una notación ligeramente más corta, donde
 |                 | b = 1            |
 |                 | c = 1            | 
 
-| Esta asignación | es equivalente a | 
-| --------------- |:-----------------| 
-| a = b = c = 1   | a = 1            |
-                  | b = 1            |
-                  | c = 1            |    
-
-
-
 La llamada asignación múltiple proporciona una notación ligeramente más corta, donde varias variables reciben sus valores a la vez.
 
-Esta asignación Explicación
-x, y, z = 99, 100, 'OK'
-p, q, r = myFunc()
-
-Resulta en:
-x=99, y= 100, and z='OK'
-
-Si myFunc () devuelve tres valores, p, q y r se les asignan esos tres valores.
+| Esta asignación | Explicación      |
+| --------------- |:-----------------| 
+| x, y, z = 99, 100, 'OK' | Resulta en:              |
+|                         | x=99, y= 100, and z='OK' |
+| p, q, r = myFunc()      | Si myFunc () devuelve tres |
+|                         | valores, p, q y r se les |
+|                         |asignan esos tres valores.|
 
