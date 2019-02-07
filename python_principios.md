@@ -159,16 +159,11 @@ Aquí hay algunos ejemplos más:
 
 ``` 
 
-
 ### Otras operaciones de asignación
 
 La asignación aumentada proporciona una notación ligeramente más corta, donde una variable tiene su valor ajustado de alguna manera.
 
-Esta asignación es equivalente a
-
-Colons can be used to align columns.
-
-<!--
+<!-- Los dos puntos se pueden utilizar para alinear columnas.
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
@@ -176,7 +171,7 @@ Colons can be used to align columns.
 | zebra stripes | are neat      |    $1 |
 -->
 
-| Esta asignación | es equivalente a | 
+| Esta asignación: | es equivalente a: | 
 | --------------- |:-----------------| 
 | x+=1            | x = x + 1        |
 | x-=23           | x = x – 23       |
@@ -185,7 +180,7 @@ Colons can be used to align columns.
 
 La asignación múltiple proporciona una notación ligeramente más corta, donde varias variables reciben el mismo valor a la vez.
 
-| Esta asignación | es equivalente a | 
+| Esta asignación: | es equivalente a: | 
 | --------------- |:-----------------| 
 | a = b = c = 1   | a = 1            |
 |                 | b = 1            |
@@ -193,7 +188,7 @@ La asignación múltiple proporciona una notación ligeramente más corta, donde
 
 La llamada asignación múltiple proporciona una notación ligeramente más corta, donde varias variables reciben sus valores a la vez.
 
-| Esta asignación | Explicación      |
+| Esta asignación: | Explicación:     |
 | --------------- |:-----------------| 
 | x, y, z = 99, 100, 'OK' | Resulta en:              |
 |                         | x=99, y= 100, and z='OK' |
