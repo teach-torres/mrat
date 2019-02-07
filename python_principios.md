@@ -174,17 +174,13 @@ Colons can be used to align columns.
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-``` python
-x+=1
-x-=23
-x/=6
-x*=2.3
+| Esta asignación | es equivalente a | 
+| --------------- |:-----------------| 
+| x+=1            | x = x + 1        |
+| x-=23           | x = x – 23       |
+| x/=6            | x = x / 6        |
+| x*=2.3          | x = x * 2.3      |
 
-x = x + 1
-x = x – 23
-x = x / 6
-x = x * 2.3
-``` 
 La asignación múltiple proporciona una notación ligeramente más corta, donde varias variables reciben el mismo valor a la vez.
 
 Esta asignación es equivalente a
