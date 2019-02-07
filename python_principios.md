@@ -105,10 +105,58 @@ La sangría se logra con mayor frecuencia utilizando incrementos de cuatro espac
 
 ``` python
 a = b + c ; p = q + r
+
 a = b + c
 p = q + r
 
 ``` 
 
 El carácter de punto y coma (;) se puede utilizar para unir varias declaraciones en una sola línea. La primera línea es equivalente a las dos líneas que la siguen.
+
+## Variables
+
+Una variable es una ubicación con nombre en la memoria del programa que se puede usar para almacenar algunos datos. Hay algunas reglas para nombrar variables:
+
+* El primer carácter debe ser una letra o un guión bajo (\_).
+* Los caracteres adicionales pueden ser alfanuméricos o de subrayado.
+* Los nombres distinguen entre mayúsculas y minúsculas.
+
+### Operaciones de asignación comunes
+
+Cuando almacenas datos en una variable se llama asignación. Una declaración de asignación coloca un valor o el resultado de una expresión en variable(s). El formato general de una tarea es:
+
+
+``` python
+var = expression
+
+``` 
+
+Una expresión puede ser un literal, un cálculo, una llamada a una función o una combinación de los tres. Algunas expresiones generan una lista de valores; por ejemplo:
+
+
+``` pythn
+var1, var2, var3 = expression
+
+``` 
+
+Aquí hay algunos ejemplos más:
+
+
+``` python
+>>> # 3 into integer myint
+>>> myint = 3
+>>>
+>>> # a string of characters into a string variable
+>>> text = 'Some text'
+>>> # a floating point number
+>>> cost = 3 * 123.45
+>>> # a longer string
+>>> Name = 'Mr' + ' ' + 'Fred' + ' ' + 'Bloggs'
+>>> # a list
+>>> shoppingList = ['ham','eggs','mushrooms']
+>>> # multiple assignment (a=1, b=2, b=3)
+>>> a, b, c = 1, 2, 3
+
+``` 
+
 
