@@ -297,24 +297,24 @@ now = datetime.now()
 # que importa este módulo puede usar estas clases.
 
 class bookClass(object):  
-"Book object"
-def __init__(self,title):
-self.title=title
-return
+    "Book object"
+    def __init__(self,title):
+        self.title=title
+        return
 
 # Las funciones se definen a continuación. Cuando se 
 # importan, se accede a las funciones como module.function ().
 
 def testbook():
-"testing testing..."
-title="How to test Py"
-book=bookClass(title)
-print("Tested the book")
+    "testing testing..."
+    title="How to test Py"
+    book=bookClass(title)
+    print("Tested the book")
 
 # Si es importado, el módulo define clases y funciones. Si 
 # se ejecuta este módulo, se ejecuta el código aquí 
 # (por ejemplo, testBook ()).
 
 if __name__=='__main__':
-testBook()
+    testBook()
 ```
