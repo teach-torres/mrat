@@ -57,23 +57,15 @@ Introducimos sangría y comentarios con algunos ejemplos.
 #
 brdr = 2 # thick border
 
-``` 
-
 # El carácter de dos puntos (:) denota el final de una línea de encabezado que marca un bloque de código. Las declaraciones que siguen a la línea del encabezado deben estar sangradas.
 
-
-``` 
 def my_func(a, b, c):
 d = a + b + c
 ...
 ...
 
-``` 
-
 # Los dos puntos se usan con más frecuencia al final de if, elif, else, while, y para sentencias y definiciones de funciones (que comienzan con la palabra clave def).
 
-
-``` 
 if this_var==23:
 doThis()
 doThat()
