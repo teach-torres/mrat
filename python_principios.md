@@ -6,7 +6,7 @@ El intérprete de Python es un programa que lee las declaraciones del programa d
 
 Puede utilizar el intérprete como herramienta interactiva. En el modo interactivo, ejecuta el programa Python y verá un nuevo indicador, >>>, y luego puede ingresar las declaraciones de Python una por una. En Microsoft Windows, puede que veas algo como esto:
 
-``` shell
+``` 
 C:\Users\Paul>python
 Python 3.4.3 (v3.4.3:9b73f1c3e601, Feb 24 2015, 22:43:06) [MSC v.1600 32 bit
 (Intel)] on win32
@@ -20,7 +20,7 @@ El intérprete ejecuta las declaraciones del programa inmediatamente. El modo in
 
 En el modo de línea de comandos, el programa Python aún se ejecuta en la línea de comandos, pero agrega el nombre de un archivo (que contiene su programa) al comando:
 
-``` 
+``` shell
 python myprogram.py
 ``` 
 
