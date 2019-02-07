@@ -42,3 +42,45 @@ La secuencia normal de pasos al crear un nuevo programa es la siguiente:
 Por lo general, es una buena idea documentar su código con comentarios. Esto es parte del proceso de edición, Paso 2. Si necesita realizar cambios en un programa que funciona, nuevamente, comience en el Paso 2.
 
 Escribir nuevos programas a menudo se llama codificación. Cuando sus programas no funcionan correctamente, hacer que los programas hagan exactamente lo que usted quiere que hagan, a menudo se llama depuración.
+
+## Comentarios, bloques de código y sangría
+
+Python, como todos los lenguajes de programación, tiene convenciones que debemos seguir. Algunos lenguajes de programación usan puntuación como llaves ({}) y punto y coma (;) para estructurar bloques de código. Python es algo diferente (y más fácil para el ojo) porque usa espacios en blanco y sangría para definir la estructura del código. A veces, el código necesita una pequeña explicación, por lo que usamos comentarios para ayudar a los lectores del código (incluido usted) a entenderlo.
+
+Introducimos sangría y comentarios con algunos ejemplos.
+
+# Cualquier texto que aparezca después de un carácter hash (#) es ignorado por el intérprete y tratado como un comentario. Usamos comentarios para proporcionar documentación.
+
+``` 
+#
+# some text after hashes
+#
+brdr = 2 # thick border
+
+``` 
+
+# El carácter de dos puntos (:) denota el final de una línea de encabezado que marca un bloque de código. Las declaraciones que siguen a la línea del encabezado deben estar sangradas.
+
+
+``` 
+def my_func(a, b, c):
+d = a + b + c
+...
+...
+
+``` 
+
+# Los dos puntos se usan con más frecuencia al final de if, elif, else, while, y para sentencias y definiciones de funciones (que comienzan con la palabra clave def).
+
+
+``` 
+if this_var==23:
+doThis()
+doThat()
+...
+else:
+do_other()
+...
+
+``` 
+
