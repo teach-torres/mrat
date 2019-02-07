@@ -258,3 +258,63 @@ if __name__ == '__main__':
 main()
 ```
 
+## Modulos Python
+
+El código de Python generalmente se almacena en archivos de texto que el intérprete de Python lee en el tiempo de ejecución. A menudo, los programas se vuelven tan grandes que tiene sentido dividirlos en otros más pequeños llamados módulos. Un módulo se puede importar a otros usando la declaración de importación.
+
+
+```python
+import othermod # hace el código en othermod
+import mymodule # y mymodule disponible
+
+```
+
+### Estructura típica del programa
+
+El mismo programa o estructura de módulo aparece de manera repetida una y otra vez, así que la recomendación es utilizarlo. De esta manera, si hay un código que otros han creado utilicelo, de igual manera el código utilizado por usted también lo pueden utilizar otros programadores.
+
+```python
+# Se usa solo en entornos Linux / Unix (le dice al shell 
+# dónde encontrar el programa Python).
+
+#!/usr/bin/python
+
+# Los módulos deben tener algún texto explicativo que 
+# describa o documente su comportamiento.
+
+#
+# este módulo hace
+# cosas interesantes como
+# calcular salarios
+#
+
+# Cree una variable global que sea accesible para todas 
+# las clases y funciones en el módulo.
+
+now = datetime.now()      
+
+# Las definiciones de clase aparecen primero. El código 
+# que importa este módulo puede usar estas clases.
+
+class bookClass(object):  
+"Book object"
+def __init__(self,title):
+self.title=title
+return
+
+# Las funciones se definen a continuación. Cuando se 
+# importan, se accede a las funciones como module.function ().
+
+def testbook():
+"testing testing..."
+title="How to test Py"
+book=bookClass(title)
+print("Tested the book")
+
+# Si es importado, el módulo define clases y funciones. Si 
+# se ejecuta este módulo, se ejecuta el código aquí 
+# (por ejemplo, testBook ()).
+
+if __name__=='__main__':
+testBook()
+```
