@@ -160,3 +160,42 @@ Aquí hay algunos ejemplos más:
 ``` 
 
 
+### Otras operaciones de asignación
+
+La asignación aumentada proporciona una notación ligeramente más corta, donde una variable tiene su valor ajustado de alguna manera.
+
+Esta asignación es equivalente a
+
+``` python
+x+=1
+x-=23
+x/=6
+x*=2.3
+
+x = x + 1
+x = x – 23
+x = x / 6
+x = x * 2.3
+``` 
+La asignación múltiple proporciona una notación ligeramente más corta, donde varias variables reciben el mismo valor a la vez.
+
+Esta asignación es equivalente a
+
+``` python
+a = b = c = 1
+
+a = 1
+b = 1
+c = 1
+``` 
+La llamada asignación múltiple proporciona una notación ligeramente más corta, donde varias variables reciben sus valores a la vez.
+
+Esta asignación Explicación
+x, y, z = 99, 100, 'OK'
+p, q, r = myFunc()
+
+Resulta en:
+x=99, y= 100, and z='OK'
+
+Si myFunc () devuelve tres valores, p, q y r se les asignan esos tres valores.
+
