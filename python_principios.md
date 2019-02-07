@@ -166,6 +166,14 @@ La asignación aumentada proporciona una notación ligeramente más corta, donde
 
 Esta asignación es equivalente a
 
+Colons can be used to align columns.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 ``` python
 x+=1
 x-=23
