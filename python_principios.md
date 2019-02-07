@@ -196,3 +196,65 @@ La llamada asignación múltiple proporciona una notación ligeramente más cort
 |                         | valores, p, q y r se les |
 |                         |asignan esos tres valores.|
 
+
+### Palabras clave de Python
+
+Al igual que todos los lenguajes de programación, en Python, algunas palabras tienen significados definidos y están reservadas para el intérprete de Python. No debes usar estas palabras como nombres de variables. Tenga en cuenta que son todos en minúsculas.
+
+```
+and as assert break
+class continue def del
+elif else except exec
+finally for from global
+if import in is
+lambda not or pass
+print raise return try
+while with yield
+```
+Hay una gran cantidad de nombres incorporados que no debe usar, a excepción de su propósito. Los casos de True, False y None son importantes. Los más comunes se enumeran aquí.
+
+```
+True False None abs
+all any chr dict
+dir eval exit file
+float format input int
+max min next object
+open print quit range
+round set str sum
+tuple type vars zip
+```
+
+Para ver una lista de estos componentes integrados, liste el contenido del módulo __builtins__ en un shell como este:
+
+```
+>>> dir(__builtins__)
+```
+
+### Identificadores especiales
+
+Python también proporciona algunos identificadores especiales que usan guiones bajos. Su nombre será de la forma:
+
+```
+_xxx
+__xxx__
+__xxx
+```
+
+Sobre todo, puedes ignorar estos. Sin embargo, una que podría encontrar en su programación es la variable especial del sistema:
+
+```python
+__name__
+```
+
+Esta variable especifica cómo se llamó al módulo. `__name__` contiene:
+
+* El nombre del módulo si se importó.
+* La cadena `__main__` si se ejecuta directamente.
+
+A menudo ves el siguiente código en la parte inferior de los módulos. El intérprete carga su programa y lo ejecuta si es necesario.
+
+```python
+if __name__ == '__main__':
+main()
+```
+
