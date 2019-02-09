@@ -350,11 +350,11 @@ class emissionClass(object):
 
 
 def testEmission():
-    "testing emission..."
+    #"testing emission..."
     # title = "How to test emission"
-    emission = emissionClass(100, 2, 99)
+    emission = emissionClass(1, 38*3, 0)
     e = emission.activity * emission.efactor * (1.0 - emission.refficiency/100.0)
-    print("The emission is: ", e)
+    print("The emission is: ", e, " lb/ton")
 
 
 # Si es importado, el módulo define clases y funciones. Si 
@@ -363,6 +363,7 @@ def testEmission():
 
 if __name__=='__main__':
     testEmission()
+
 -->
 
 <!--This is a comment. Comments are not displayed in the browser-->
