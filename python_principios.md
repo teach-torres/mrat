@@ -319,14 +319,48 @@ if __name__=='__main__':
     testBook()
 ```
 
-<!--
+<!-- Ejemplo de  ejecucion
 https://www.jdoodle.com/python3-programming-online
 
 http://www.compileonline.com/execute_python3_online.php
 
 https://www.tutorialspoint.com/python3_terminal_online.php
 
+#!/usr/bin/python
 
+class emissionClass(object):
+    """ An emission estimation 
+    
+    Atributes:
+    E = A * EF * (1 - ER/100)
+    E = emissions,
+    A = activity rate,
+    EF = emission factor,
+    ER = overall emission reduction efficiency, %
+
+    
+    """
+    def __init__(self, activity, efactor, refficiency):
+        self.activity = activity
+        self.efactor = efactor
+        self.refficiency = refficiency
+        return
+
+
+def testEmission():
+    "testing emission..."
+    # title = "How to test emission"
+    emission = emissionClass(100, 2, 99)
+    e = emission.activity * emission.efactor * (1.0 - emission.refficiency/100.0)
+    print("The emission is: ", e)
+
+
+# Si es importado, el módulo define clases y funciones. Si 
+# se ejecuta este módulo, se ejecuta el código aquí 
+# (por ejemplo, testBook ()).
+
+if __name__=='__main__':
+    testEmission()
 -->
 
 <!--This is a comment. Comments are not displayed in the browser-->
