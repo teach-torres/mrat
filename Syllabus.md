@@ -22,6 +22,8 @@ Muestreo de emisiones en chimenea empleando metodos manuales y automaticos.
 Metodos EPA 1, 2, 2 A, 3, 3 A, 4, 5, 6, 7, 8, entre otros. Metodos aprobados
 por el MAVDT / IDEAM.
 
+Factores de Emisión [Abrir](https://docs.google.com/document/d/13SupJe1bwHzkfxAeD9HN9RUCc42OTTbOiN_SrBYgJAw/edit?usp=sharing)
+
 # Medicion  de Calidad del Aire
 
 Muestreo de calidad del aire empleando metodos manuales y automaticos. Muestreo
