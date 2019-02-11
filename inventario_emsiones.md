@@ -1,0 +1,5 @@
+# Factores de Emisión
+
+El documento AP-42, repositorio de factores de emisión de contaminantes del aire, se ha publicado desde 1972 como la principal fuente de información de factores de emisión de la EPA de los Estados Unidos. Contiene factores e información para más de 200 categorías de fuentes de contaminación del aire. Una categoría de fuente es un sector industrial específico o un grupo de fuentes emisoras similares. Los factores de emisiones se han desarrollado y compilado a partir de datos de estudios de emisiones, estudios de balance de materiales y estimaciones de ingeniería. La Quinta edición de AP-42 se publicó en enero de 1995. Desde entonces, la EPA ha publicado suplementos y actualizaciones de quince capítulos disponibles en el Volumen I, fuentes fijas estacionaria y fuentes de área. Los últimos factores de emisiones están disponibles a continuación en este sitio web. 
+
+Texto [provisional](https://docs.google.com/document/d/1y5ryQIosSBNKBds9_IMc1oTftl2ZABoT4DkxZCa1DGA/edit?usp=sharing).
