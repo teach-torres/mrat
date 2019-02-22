@@ -4,6 +4,14 @@
 
 #### Emisiones biogénicas
 
+Las emisiones al aire de origen natural incluyen VOC, NOx y gases de efecto invernadero como metano (CH4), óxido nitroso (N2O), ozono (O3) y dióxido de carbono (CO2). Estos gases se forman por procesos naturales que ocurren en  vegetación y suelos, en ecosistemas marinos, resultado de la actividad geológica en forma de géiseres o volcanes, resultado de la actividad meteorológica como los rayos, de la fauna como rumiantes y termitas. Las emisiones resultantes de actividades antropogénicas, como las relacionadas con la industria agrícola, también se incluyen en esta definición; estas actividades incluyen el uso de fertilizantes que desencadenan las emisiones de la actividad microbiana y la quema de biomasa agrícola.
+
+Las fuentes biogénicas, un subconjunto de las fuentes naturales, incluyen solo aquellas que resultan de algún tipo de actividad biológica. Las emisiones biogénicas representan una parte significativa de las emisiones de fuentes naturales, y los VOC, NOx y los gases de efecto invernadero mencionados anteriormente pueden ser emitidos a partir de fuentes biogénicas.
+
+La vegetación es la fuente biogénica predominante de COV y, por lo general, es la única fuente que se utiliza para estimar las emisiones de COV biogénicas. La actividad microbiana es responsable de la emisión de NOx y los gases de efecto invernadero de CO2, CH4 y N2O. La actividad microbiana del suelo es responsable de las emisiones de NOx y N2O de las tierras agrícolas y los pastizales. El CH4 se emite a través de la acción microbiana en suelos saturados de agua o en otros entornos de microbianos anaeróbicos. El CO2 se libera a través de la descomposición aeróbica de la biomasa (EPA, 1993; EPA, 1990a).
+
+Las fuentes naturales que no son fuentes biogénicas incluyen rayos, una fuente de óxido nítrico (NO) y filtraciones de petróleo y gas, que son fuentes de VOC, CH4 y contaminantes peligrosos del aire (HAP). Las contribuciones estimadas de estas fuentes pueden ser significativas cuando El dominio de modelado se extiende a áreas que no tienen una alta contribución antropogénica.
+
 #### Emisiones antropogenicas
 
 ## Definiciones importantes
