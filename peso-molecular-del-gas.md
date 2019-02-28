@@ -8,7 +8,7 @@ cálculos para determinar el flujo de gases.
 - El peso molecular aparente de la mezcla de gases es función de la composición 
 de la mezcla.
 
-- Los gases poseen cantidades significativas de compuestos diferentes al 
+- Los gases poseen cantidades significativas de diversos compuestos como el 
 oxígeno, nitrógeno, dióxido de carbono y vapor de agua, que deben analizarse 
 para determinar el peso molecular aparente
 
