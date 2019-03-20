@@ -2,6 +2,6 @@
 
 Video: Muestreo Isocinetico en Chimenea
 
-![Muestreo Isocinetico](<div style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/rrXgBvkuJ4w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>)
+[![Muestreo Isocinetico](https://img.youtube.com/vi/rrXgBvkuJ4w/0.jpg)](https://www.youtube.com/watch?v=rrXgBvkuJ4w "Muestreo Isocinetico")
 
 
