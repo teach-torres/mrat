@@ -3,6 +3,16 @@
 
 # Estudios de emision de particulas
 
+La EPA reconoció la existencia de material particulado condensable, MPC, desde 1983 [13]. Además, en el Método 202 EPA [14], definió el MPC como "material que está en fase vapor a condiciones de la chimenea, pero que se condensa y/o reacciona al enfriarse y diluirse en el aire ambiente para formar material particulado sólido o líquido inmediatamente al salir de la chimenea", además arega "es un componente del material particulado primario". Es decir, el material particulado es un elemento que se encuentra en estado gaseoso en la chimenea y después de su descarga a la atmósfera adopta la forma de partícula (sólida o líquida) por condensación o reacción con otras sustancias atmosféricas. El elemento clave entonces para definir el MPC es la temperatura de salida de los gases de combustión.
+
+Las partículas formadas antes de la descarga pertenecen a MPF (filterable particulate matter), y las partículas formadas después de la descarga pertenecen a MPC.
+
+De acuerdo con la definición de MPC, el vapor de agua presente en los gases de combustión están en el ámbito del MPC. Pero, teniendo en cuenta que el vapor de agua puede condensarse en agua líquida inocuas para el medio ambiente después de la descarga y vaporizarse nuevamente después de un período de tiempo, los métodos EPA no tienen en cuentan el vapor de agua en el MPC al medir el MPC total.
+
+Usualmente las personas confunden las partículas secundarias con MPC. En realidad, el MPC es diferente de las partículas secundarias [15]. Las partículas secundarias no se emiten directamente como MPC. Por el contrario, están formados por reacciones físico-químicas a largo plazo entre gases contaminantes, como SO2, NOx y componentes atmosféricos [16,17]
+
+Los compuestos orgánicos volátiles, COV, son una designación general de contaminantes orgánicos formados principalmente por cadenas cortas de carbón, como los alcanos, los ésteres, etc. [18]. Los componentes de los alcanos y los ésteres también se han detectado en MPC [19], por lo tanto, los COV y los MPC tienen características similares por la presencia de esos componentes orgánicos. Si algunas partes de los COV se condensan en un estado particulado inmediatamente después de la descarga, caen dentro de la categoría de MPC. De otra parte, aquellos COV que no se condensan rápidamente después de la descarga no pertenecen a la categoría de MPC.
+
 ## Material particulado
 
 Según la EPA (APTI 460), el material particulado es el material sólido o líquido finamente dividido presente en gases de combustión (no incluye el agua no combinada). Los términos utilizados para designar el material particulado son polvo, humo, niebla neblina y aerosol. También se usan los términos dispersión de aerosol y aerosol de condensación, principalmente en discusiones relacionadas con partículas arrastradas por el aire ambiente.
