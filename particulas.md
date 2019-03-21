@@ -32,7 +32,7 @@ Posteriormente, se han desarrollado dos métodos adicionales para medir las emis
 
 El método 202 se puede usar para fuentes que tienen emisiones de partículas condensables. Si la temperatura de filtración del gas supera los 30 ° C (85 ° F) y se deben cuantificar los componentes filtrables y condensables del PM primario total emitido a la atmósfera, se deben combinar los procedimientos de los Métodos 201A y 202. Estos y otros métodos recomendados se pueden encontrar en 40 CFR Apéndice M a la Parte 51 — Métodos de prueba recomendados para los planes de implementación estatales.
 
-**FUENTE DE MUESTREO**
+**MUESTREO DE FUENTES DE EMISION**
 
 El muestreo de fuentes es el conjunto de procedimientos utilizados para obtener muestras de gases de combustión de fuentes estacionarias. Estos gases de combustión pueden contener productos de combustión tales como dióxido de carbono y agua; gases contaminantes como el dióxido de azufre, los óxidos nítricos y el monóxido de carbono; compuestos orgánicos; tóxicos del aire; y materia particulada. Las emisiones dependen del tipo de fuente de emisión. Por lo tanto, un probador de fuentes debe elegir las técnicas de muestreo adecuadas para obtener muestras representativas de gases y partículas.
 
@@ -50,7 +50,7 @@ Por supuesto, las industrias están obligadas a controlar la emisión de partíc
 
 **NORMAS DE EMISION**
 
-Normas para Fuentes Estacionarias**
+**Normas para Fuentes Estacionarias**
 
 Los estándares de emisión para fuentes estacionarias son establecidos tanto por los EE. UU. EPA como por los estados. Tanto la EPA de los Estados Unidos como los estados promulgan estándares de ingeniería y basados ​​en la salud para fuentes nuevas y existentes. Por ejemplo, la EPA promulga los Estándares Nacionales de Emisión para Contaminantes Peligrosos del Aire (NESHAP) que inicialmente incluyen estándares basados ​​en la tecnología. Ocho años después de la promulgación, la EPA debe revisar si existe un riesgo residual significativo e imponer estándares adicionales si es necesario para proteger la salud pública. Los estados regulan las nuevas fuentes a través de sus programas de Revisión de nuevas fuentes, que incluyen la imposición de las Mejores Tecnologías de Control Disponibles a las fuentes principales y en algunos estados fuentes menores. Los estados también implementarán Tecnologías de Control Razonablemente Disponibles para las fuentes existentes en áreas de incumplimiento.
 
