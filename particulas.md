@@ -101,3 +101,30 @@ Un componente fundamental del sitio web de EMC es proporcionar información sobr
 Los métodos de prueba se pueden dividir en las siguientes categorías.
 
 Página 34
+
+
+### Referencias
+
+[13]. Estimation of the Importance of Condensed Particulate Matter to Ambient Particulate Levels; PB84-102565
+U.S. Environmental Protection Agency, Research Triangle Park, NC (1983)
+
+[14]. Website of the U.S. Environmental Protection Agency, the United States of America. Method 202-Determination of condensable particulate emissions from stationary sources. Available from: https://www.epa.gov/emc/method-202-condensable-particulate-matter. [accessed 11 February 2018].
+
+[15]. R.J. Huang, Y. Zhang, C. Bozzetti, K.F. Ho, J.J. Cao, Y. Han, et al.
+High secondary aerosol contribution to particulate pollution during haze events in China
+Nature, 514 (7521) (2014), pp. 218-222
+
+[16]. A. Limbeck, M. Kulmala, H. Puxbaum
+Secondary organic aerosol formation in the atmosphere via heterogeneous reaction of gaseous isoprene on acidic particles
+Geophys Res Lett, 30 (30) (2003), pp. 379-394
+
+[17]. M. Claeys, B. Graham, G. Vas, W. Wang, R. Vermeylen, V. Pashynska, et al.
+Formation of secondary organic aerosols through photooxidation of isoprene
+Science, 303 (5661) (2004), pp. 1173-1176
+
+[18]. R. Atkinson. Atmospheric chemistry of VOCs and NOx 
+Atmos Environ, 34 (12–14) (2000), pp. 2063-2101
+
+[19]. J. Li, Z. Qi, M. Li, D. Wu, C. Zhou, S. Lu, et al.
+Physical and chemical characteristics of condensable particulate matter from an ultralow-emission coal-fired power plant
+Energy Fuels, 31 (2) (2017), pp. 1778-1785
