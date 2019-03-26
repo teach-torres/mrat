@@ -1,7 +1,31 @@
+<style TYPE="text/css">
+code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
+</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
+    }
+});
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
 - [Estudios de emision de particulas](#Estudios-de-emision-de-particulas)
   - [Material particulado](#material-particulado)
 
 # Estudios de emision de particulas
+
+\begin{equation*}
+%\Huge
+c_a = \frac{m_{ab}}{v_a\ \rho _a} = \frac{(2.135)}{(300)\ (0.7908)} = \text{{\color{blue} 0.009} mg/g}
+\end{equation*}
 
 La EPA reconoció la existencia de material particulado condensable, MPC, desde 1983 [13]. Además, en el Método 202 EPA [14], definió el MPC como "material que está en fase vapor a condiciones de la chimenea, pero que se condensa y/o reacciona al enfriarse y diluirse en el aire ambiente para formar material particulado sólido o líquido inmediatamente al salir de la chimenea", además arega "es un componente del material particulado primario". Es decir, el material particulado es un elemento que se encuentra en estado gaseoso en la chimenea y después de su descarga a la atmósfera adopta la forma de partícula (sólida o líquida) por condensación o reacción con otras sustancias atmosféricas. El elemento clave entonces para definir el MPC es la temperatura de salida de los gases de combustión.
 
