@@ -32,7 +32,7 @@ Accessories | Command Prompt).
 
 The Command Prompt window looks like this initially:
 
-![Command](aermod/img/command1.png?raw=true "Command Promt")
+![Command](aermod/img/command1.png)
 
 <!--
 <img src="/img/command1.png" alt="Command Promt" style="width">
