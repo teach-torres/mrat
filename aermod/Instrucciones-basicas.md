@@ -22,7 +22,7 @@ copy aermod.out aertest.out
 Note that the output file is `AERMOD.OUT` and needs to be copied from `AERMOD.OUT` to another 
 file. If this is not done, `AERMOD.OUT` will be over written next time **AERMOD** is run and 
 you will lose whatever data was in the previous `AERMOD.OUT` file.
-***********************************************************************************************
+
 Many a first time user will go into Windows Explorer, double click on **AERMOD.EXE** and then 
 call us wondering why a window blinked open and shut with no indication of anything happening. 
 You **did** run **AERMOD** but you have no idea of whether it was a successful run or not. You 
@@ -31,7 +31,7 @@ need to run **AERMOD** from the Windows Command Prompt to see any error or succe
 Accessories | Command Prompt).
 
 The Command Prompt window looks like this initially:
-<img src="\img\command1.png" alt="Command Promt" style="width">
+<img src="/img/command1.png" alt="Command Promt" style="width">
 
 
 <!--
