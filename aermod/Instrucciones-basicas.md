@@ -31,8 +31,11 @@ need to run **AERMOD** from the Windows Command Prompt to see any error or succe
 Accessories | Command Prompt).
 
 The Command Prompt window looks like this initially:
-<img src="/img/command1.png" alt="Command Promt" style="width">
 
+![image](/img/command1.png)
+<!--
+<img src="/img/command1.png" alt="Command Promt" style="width">
+-->
 
 <!--
 ***********************************************************************************************
