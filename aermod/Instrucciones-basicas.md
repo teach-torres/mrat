@@ -85,33 +85,46 @@ included for those who are unfamiliar with DOS. If you run into problems, we are
 through the SCRAM web site "Contact us" page.
 
 ```terminal
-1) Execute the Command Prompt (e.g. Start | All Programs | Accessories | Command Prompt)
-2) Use the cd command to go to your Tryme subdirectory (e.g. cd \aermod\tryme)
-3) Unzip SampleRun.ZIP - If you have not already done so already. Please use either PKUNZIP or WinZip as we have had a few reported problems with other third party unzipping programs.
-4) At the Command Prompt, type: DIR to see if all the files are there as shown on the previous page.
-5) Type: copy AERtest_org.INP AERMOD.INP this copies the original input file to an input file name that AERMOD is source coded to open and read.
+1) Execute the Command Prompt (e.g. Start | All Programs | Accessories | 
+   Command Prompt)
+2) Use the cd command to go to your Tryme subdirectory 
+   (e.g. cd \aermod\tryme)
+3) Unzip SampleRun.ZIP - If you have not already done so already. Please 
+   use either PKUNZIP or WinZip as we have had a few reported problems 
+   with other third party unzipping programs.
+4) At the Command Prompt, type: DIR to see if all the files are there as 
+   shown on the previous page.
+5) Type: copy AERtest_org.INP AERMOD.INP this copies the original input 
+   file to an input file name that AERMOD is source coded to open and read.
 6) At the Command Prompt window, type: AERMOD
 
 -- this will run the sample run test case
 Note: aertest.inp has already been copied to aermod.inp
 
-Note: An AERMOD.EXE file was also included and should **not** be used for production runs. It was provided for
-ease of operations.
+Note: An AERMOD.EXE file was also included and should **not** be used for 
+production runs. It was provided for ease of operations.
 
-7) Use the DOS FC command to compare file output. For example, at the Command Prompt, type:
-FC aertest.sum aertest_org.sum FC aermod.out aertest_org.out
+7) Use the DOS FC command to compare file output. 
+For example, at the Command Prompt, type:
+      FC aertest.sum aertest_org.sum 
+      FC aermod.out aertest_org.out
 
-Some difference output should only have lines containing date or time which will be difference. Some files should have no differences.
+Some difference output should only have lines containing date or time 
+which will be difference. Some files should have no differences.
  
-There might be cases where "0.00" is represented as " .00" or "1.45678" might be "1.45677". The FC command will find all such differences and they should be ignored as they are insignificant.
+There might be cases where "0.00" is represented as " .00" or "1.45678" 
+might be "1.45677". The FC command will find all such differences and 
+they should be ignored as they are insignificant.
 
-Commercial text editors such as Ultra Edit have their own File Compare functions that can be used instead of the FC command.
+Commercial text editors such as Ultra Edit have their own File Compare 
+functions that can be used instead of the FC command.
 
-8) Once satisfied that you have successfully installed and run AERMOD, please delete AERMOD.EXE so that if it is an older version,
-it does **not** make its way into being used in a production run.
+8) Once satisfied that you have successfully installed and run AERMOD, 
+   please delete AERMOD.EXE so that if it is an older version,
+   it does **not** make its way into being used in a production run.
 
-9) If you have any questions or issues with these instructions, please contact us through our SCRAM web site using its “Contact Us” feature.
-
+9) If you have any questions or issues with these instructions, please 
+   contact us through our SCRAM web site using its “Contact Us” feature.
 ```
 
 ## Real Test Cases
