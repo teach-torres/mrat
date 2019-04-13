@@ -118,11 +118,11 @@ entender y controlar la operación del modelo AERMOD. A menos que se especifique
 cosa utilizando etiquetas disponibles, el modelo implementa las siguientes opciones 
 por defecto:
 
--> Uso de algoritmos de terreno elevado requiriendo el ingreso datos de terreno de altura, 
--> Uso de lavado de extremos de chimenea (excepto para casos de lavado de edificaciones), 
--> Uso de rutinas de procesamiento de calmas, 
--> Uso de rutinas de procesamiento de datos faltantes, 
--> Uso de vida media de 4-h para el decaimiento exponencial de SO2 para fuentes urbanas. 
+* Uso de algoritmos de terreno elevado requiriendo el ingreso datos de terreno de altura, 
+* Uso de lavado de extremos de chimenea (excepto para casos de lavado de edificaciones), 
+* Uso de rutinas de procesamiento de calmas, 
+* Uso de rutinas de procesamiento de datos faltantes, 
+* Uso de vida media de 4-h para el decaimiento exponencial de SO2 para fuentes urbanas. 
 
 Los parámetros utilizados para las opciones en la etiqueta MODELOPT son cadenas de 
 caracteres, llamadas "etiquetas secundarias", que describen las opciones que son 
