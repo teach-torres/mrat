@@ -1,6 +1,6 @@
 # Generalidades
 
-n esta sección se presenta a modo de introducción un ejemplo de modelación con AER-
+En esta sección se presenta a modo de introducción un ejemplo de modelación con AER-
 MOD, el cual ayudará a entender como se configura el sistema de modelación. Este ejemplo
 ilustra el uso de las opciones más empleadas.
 
@@ -101,3 +101,108 @@ utilizar para convertir en comentarios ciertas opciones de una ejecución en
 particular sin borrar las opciones y los datos asociados (e.g., alturas de 
 terrenos elevados).
 
+Otra razón, es para mejorar la lectura del manejo detallado de errores que ha 
+sido construido para el programa. El modelo suministra descripción de la localización 
+y naturaleza de todos los errores encontrados para una ejecución en particular. 
+En lugar de detener la ejecución en un error encontrado en el archivo de entrada, 
+el modelo continua leyendo para procesar todos los registros de entrada y reporta 
+todos los errores encontrados. Si ocurren un error fatal, el programa no ejecutará 
+los cálculos de modelación.
+
+## Uso de opciones regulatorias
+
+La opción regulatoria DFAULT es controlada desde la etiqueta MODELOPT en la ruta CO. 
+Como su nombre lo indica, esta etiqueta controla las opciones de selección del modelo. 
+Es una etiqueta de uso obligatorio, no repetible, y especialmente importante para 
+entender y controlar la operación del modelo AERMOD. A menos que se especifique otra 
+cosa utilizando etiquetas disponibles, el modelo implementa las siguientes opciones 
+por defecto:
+
+-> Uso de algoritmos de terreno elevado requiriendo el ingreso datos de terreno de altura, 
+-> Uso de lavado de extremos de chimenea (excepto para casos de lavado de edificaciones), 
+-> Uso de rutinas de procesamiento de calmas, 
+-> Uso de rutinas de procesamiento de datos faltantes, 
+-> Uso de vida media de 4-h para el decaimiento exponencial de SO2 para fuentes urbanas. 
+
+Los parámetros utilizados para las opciones en la etiqueta MODELOPT son cadenas de 
+caracteres, llamadas "etiquetas secundarias", que describen las opciones que son 
+seleccionadas. Por ejemplo, para asegurar que el modelo utilice la opción regulatoria 
+por defecto, el usuario debe incluir la etiqueta secundaria DFAULT en MODELOPT. La 
+presencia de esta etiqueta dice al programa que anule cualquier intento de utilizar 
+una opción no-regulatoria. El programa alertará al usuario si se selecciona una opción 
+no-regulatoria con la opción DFAULT, pero no detendrá el proceso. Para aplicaciones de 
+modelación regulatoria se sugiere emplear DFAULT, aún a pesar de que se utilicen 
+opciones nmo-regulatorias. 
+
+Para cualquier aplicación que utilice la opción no-regulatoria, no utilizar la 
+opción DFAULT. Las opciones no-regulatorias tambieén son especificadas con etiquetas 
+secundarias; por ejemplo, NOSTD llama la opción de no emplear lavado de chimenea. 
+
+#  Configuración de una archivo de flujo de ejecución
+
+A continuación se muestra un ejemplo de construcción de una aplicación, ilustrando 
+las opciones más utiliadas en el modelo AERMOD. El ejemplo, consisten en una 
+aplicación industrial simple. El archivo ejemplo se muestra en la siguiente figura 
+y en la sección siguiente se explican las partes de que compone el archivo.
+
+```terminal
+CO STARTING 
+CO TITLEONE A Simple Example Problem for the AERMOD-PRIME Model
+
+CO MODELOPT CONC FLAT 
+CO AVERTIME 3 24 PERIOD 
+CO POLLUTID SO2 
+CO RUNORNOT RUN 
+CO FINISHED 
+SO STARTING 
+SO LOCATION STACK1 POINT 0.0 0.0 0.0 
+SO SRCPARAM STACK1 500.0 65.00 425. 15.0 5. 
+SO BUILDHGT STACK1 36*50. 
+SO BUILDWID STACK1 62.26 72.64 80.80 86.51 89.59 89.95 
+SO BUILDWID STACK1 87.58 82.54 75.00 82.54 87.58 89.95 
+SO BUILDWID STACK1 89.59 86.51 80.80 72.64 62.26 50.00 
+SO BUILDWID STACK1 62.26 72.64 80.80 86.51 89.59 89.95 
+SO BUILDWID STACK1 87.58 82.54 75.00 82.54 87.58 89.95 
+SO BUILDWID STACK1 89.59 86.51 80.80 72.64 62.26 50.00 
+SO BUILDLEN STACK1 82.54 87.58 89.95 89.59 86.51 80.80 
+SO BUILDLEN STACK1 72.64 62.26 50.00 62.26 72.64 80.80 
+SO BUILDLEN STACK1 86.51 89.59 89.95 87.58 82.54 75.00 
+SO BUILDLEN STACK1 82.54 87.58 89.95 89.59 86.51 80.80 
+SO BUILDLEN STACK1 72.64 62.26 50.00 62.26 72.64 80.80 
+SO BUILDLEN STACK1 86.51 89.59 89.95 87.58 82.54 75.00 
+SO XBADJ STACK1 -47.35 -55.76 -62.48 -67.29 -70.07 -70.71 
+SO XBADJ STACK1 -69.21 -65.60 -60.00 -65.60 -69.21 -70.71 
+SO XBADJ STACK1 -70.07 -67.29 -62.48 -55.76 -47.35 -37.50 
+SO XBADJ STACK1 -35.19 -31.82 -27.48 -22.30 -16.44 -10.09 
+SO XBADJ STACK1 -3.43 3.34 10.00 3.34 -3.43 -10.09 
+SO XBADJ STACK1 -16.44 -22.30 -27.48 -31.82 -35.19 -37.50 
+SO YBADJ STACK1 34.47 32.89 30.31 26.81 22.50 17.50 
+SO YBADJ STACK1 11.97 6.08 0.00 -6.08 -11.97 -17.50 
+SO YBADJ STACK1 -22.50 -26.81 -30.31 -32.89 -34.47 -35.00 
+SO YBADJ STACK1 -34.47 -32.89 -30.31 -26.81 -22.50 -17.50 
+SO YBADJ STACK1 -11.97 -6.08 0.00 6.08 11.97 17.50 
+SO YBADJ STACK1 22.50 26.81 30.31 32.89 34.47 35.00 
+SO SRCGROUP ALL 
+SO FINISHED 
+RE STARTING 
+RE GRIDPOLR POL1 STA 
+
+RE GRIDPOLR POL1 ORIG STACK1 
+RE GRIDPOLR POL1 DIST 175. 350. 500. 1000. 
+RE GRIDPOLR POL1 GDIR 36 10 10 
+RE GRIDPOLR POL1 END 
+RE FINISHED 
+
+ME STARTING 
+ME SURFFILE AERMET2.SFC 
+ME PROFFILE AERMET2.PFL 
+ME SURFDATA 14735 1988 ALBANY,NY
+ME UAIRDATA 14735 1988 ALBANY,NY
+ME PROBATE 0.0 METERS 
+ME FINISHED 
+
+OF STARTING 
+OF RECTABLE ALIVE FIRST-SECOND 
+OF MAXTABLE ALIVE 50 
+OF FINISHED 
+```
