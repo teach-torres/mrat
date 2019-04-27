@@ -17,7 +17,7 @@ Labs Language S.
 
 [Tutorial R](https://docs.google.com/document/d/1XUEfeZTc39u04XbquRVXsx_tP8LWnwF6myecyfy59X0/edit?usp=sharing)
 
-[OpenAir](https://docs.google.com/document/d/13ODMsMyfHJWXrkTzoFIyi0B3OI_H2SKjc-HvTt21W04/edit?usp=sharing)
+[Tutorial OpenAir](https://docs.google.com/document/d/13ODMsMyfHJWXrkTzoFIyi0B3OI_H2SKjc-HvTt21W04/edit?usp=sharing)
 
 [Script R](https://docs.google.com/document/d/1HD9dO8Xw8SSJ-OyGT-Muto33bCIyIVLTEqYoJH2uXhg/edit?usp=sharing)
 
