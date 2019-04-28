@@ -15,9 +15,9 @@ Labs Language S.
 
 [Instalar R Studio](https://docs.google.com/document/d/19ZD9f_ZW9IRomJVlH9CO_PfXnLffypscUZiDBh19Xys/edit?usp=sharing)
 
-[Tutorial R](https://docs.google.com/document/d/1XUEfeZTc39u04XbquRVXsx_tP8LWnwF6myecyfy59X0/edit?usp=sharing)
+[Tutorial R](https://docs.google.com/document/d/1Rq6kIdhF-R9x7m28U5Pwo06Y0YpDgsymB4HRmCEnDpk/edit?usp=sharing)
 
-[Tutorial OpenAir](https://docs.google.com/document/d/13ODMsMyfHJWXrkTzoFIyi0B3OI_H2SKjc-HvTt21W04/edit?usp=sharing)
+[Tutorial OpenAir](https://docs.google.com/document/d/1C5R3WdXIN5YgTW5ahUdR1-pUbEK5duAn4N8V_Zw9gjM/edit?usp=sharing)
 
 [Script R](https://docs.google.com/document/d/1HD9dO8Xw8SSJ-OyGT-Muto33bCIyIVLTEqYoJH2uXhg/edit?usp=sharing)
 
