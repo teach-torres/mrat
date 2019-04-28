@@ -7,7 +7,7 @@ R está disponible gratuitamente bajo la Licencia Pública General de GNU, y se 
 ersiones binarias precompiladas para varios sistemas operativos como Linux, Windows y Mac. 
 Este lenguaje de programación fue nombrado R, basado en la primera letra del nombre de los 
 dos autores R (Robert Gentleman y Ross Ihaka), y en parte una obra sobre el nombre de Bell 
-Labs Language S.
+Labs Language S. 
 
 ## Documentos
 
