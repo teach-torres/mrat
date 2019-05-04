@@ -18,3 +18,5 @@ de los componentes fluctuantes del viento.
 
 [Instrucciones AERMET](https://docs.google.com/document/d/13wOVZCR4Cv-A3x94A2rwkPUgCfc-_DVsry_SUcIUbSk/edit?usp=sharing)
 
+[Hoja de Datos de Albedo, Bowen y Rugosidad ](https://docs.google.com/spreadsheets/d/15V06WaoqkbVcaWesFuDoebYsiNQ74ayQmXf_V4aKvQo/edit?usp=sharing)
+
