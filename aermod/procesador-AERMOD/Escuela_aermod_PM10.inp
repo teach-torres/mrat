@@ -1,0 +1,43 @@
+CO STARTING                                                                                                                         
+   TITLEONE  EJEMPLO DE MODELACION ESCUELA COL ING
+   TITLETWO  FUENTES FJAS
+   MODELOPT  CONC  FASTALL 
+   AVERTIME  24   ANNUAL                                                                                                     
+   POLLUTID  PM     
+   RUNORNOT  RUN
+   ERRORFIL  ERRORS.OUT
+CO FINISHED                                                                                                                         
+   
+SO STARTING
+** FUENTES FIJAS PUNTUALES
+SO INCLUDED  escuela_src.out  
+   
+** Point Source       QS      HS     TS    VS    DS
+** Parameters:       ----    ----   ----  ----   ---
+   SRCPARAM  RECUERDO  1.0    15.00  425.  3.0   0.40
+   SRCPARAM  JARDPAZ1  0.25   15.00  425.  3.0   0.40
+   SRCPARAM  JARDPAZ2  0.90   15.00  425.  3.0   0.40
+   SRCPARAM  JARDPAZ3  0.05   15.00  425.  3.0   0.40
+   SRCPARAM  JARDPAZ4  0.12   15.00  425.  3.0   0.40
+   SRCGROUP  ALL  
+SO FINISHED       
+
+RE STARTING
+   INCLUDED escuela_rec.out
+RE FINISHED   
+
+ME STARTING                                                                                                                         
+   SURFFILE  AERMET13_14.sfc
+   PROFFILE  AERMET13_14.pfl
+   SURFDATA  66666  2013  
+   UAIRDATA  66666  2013                                                                                                   
+   PROFBASE  0.0  METERS
+ME FINISHED  
+
+OU STARTING                                                                                                                         
+   RECTABLE  ALLAVE  FIRST-SEVENTH    
+   MAXTABLE  ALLAVE  50
+   PLOTFILE  24  ALL  SEVENTH  MP24H.PLT
+   PLOTFILE  ANNUAL  ALL  MPANN.PLT
+   SUMMFILE  SRC_MP.SUM  
+OU FINISHED

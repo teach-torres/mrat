@@ -1,0 +1,16 @@
+** AERMAP - VERSION 11103                                              05/20/17
+**                                                                     11:29:46
+**  Evaluacion de calidad del aire Escuela Colombiana de Ingenierìa
+**  Empleando SRTM 3-sec Data, convertido a formato DEM
+** A total of      1  DEM files were used
+** A total of      5  sources were processed
+** DOMAINLL  -74.081   4.740 -73.990  4.790
+** ANCHORXY  601342.00  523956.00  601342.00  523956.00  18 3
+** Terrain heights were extracted by default
+  
+SO ELEVUNIT METERS
+SO LOCATION  RECUERDO      POINT        606283.33     528968.50       2550.99
+SO LOCATION  JARDPAZ1      POINT        606705.15     528496.95       2556.23
+SO LOCATION  JARDPAZ2      POINT        606709.31     528499.52       2556.33
+SO LOCATION  JARDPAZ3      POINT        606711.24     528501.02       2556.38
+SO LOCATION  JARDPAZ4      POINT        606714.91     528502.98       2556.46
