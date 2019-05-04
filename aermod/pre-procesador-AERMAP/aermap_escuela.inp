@@ -1,0 +1,24 @@
+CO STARTING
+   TITLEONE  Evaluacion de calidad del aire Escuela Colombiana de Ingenierìa 
+   TITLETWO  Empleando SRTM 3-sec Data, convertido a formato DEM
+   DATATYPE  DEM
+   DATAFILE  escuelaing.dem
+** Request ALL Debug Output Files   
+   DEBUGOPT  ALL
+   DOMAINLL  -74.081   4.740 -73.990  4.790
+   ANCHORXY  601342.00  523956.00  601342.00  523956.00  18 3 
+   RUNORNOT  RUN
+CO FINISHED
+
+SO STARTING
+   INCLUDED  site_fuentes.inp
+SO FINISHED
+
+RE STARTING
+   INCLUDED  site_receptores.inp
+RE FINISHED
+
+OU STARTING
+   RECEPTOR  escuela_rec.out
+   SOURCLOC  escuela_src.out
+OU FINISHED
