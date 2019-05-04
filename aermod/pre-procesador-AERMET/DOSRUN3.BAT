@@ -1,0 +1,2 @@
+RUNAERMET.BAT AERMET3.INP
+del aermet.exe
