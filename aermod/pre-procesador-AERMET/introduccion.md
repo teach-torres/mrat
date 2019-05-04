@@ -16,5 +16,5 @@ de estimaciones de parámetros de capa límite por hora y un archivo de observac
 niveles múltiples de velocidad y dirección del viento, temperatura y desviación estándar 
 de los componentes fluctuantes del viento.
 
-[INstrucciones AERMET](https://docs.google.com/document/d/13wOVZCR4Cv-A3x94A2rwkPUgCfc-_DVsry_SUcIUbSk/edit?usp=sharing)
+[Instrucciones AERMET](https://docs.google.com/document/d/13wOVZCR4Cv-A3x94A2rwkPUgCfc-_DVsry_SUcIUbSk/edit?usp=sharing)
 
