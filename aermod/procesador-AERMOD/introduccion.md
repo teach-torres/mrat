@@ -6,3 +6,4 @@ por la USEPA que pueden ser útiles con respecto a la aplicación de AERMOD a tr
 del sitio web del Centro de soporte para modelos reglamentarios atmosféricos 
 (SCRAM, por sus siglas en inglés) en https://www.epa.gov/scram.
 
+[slides](https://docs.google.com/presentation/d/1XsTaJ-BqWdUrd0ozT0P2aNUsv1x_Vi0z06Yh7ylTHI4/edit?usp=sharing)
