@@ -13,4 +13,4 @@ de estos formatos. AERMAP produce elevaciones de la base del terreno para cada r
 y un valor de escala de altura de colina para cada receptor. AERMAP genera los resultados de 
 elevación en un formato que se puede insertar directamente en un archivo de control AERMOD.
 
-![Archivos SRTM Colombia](https://drive.google.com/open?id=1P6qqBz8Pkx_i99i4EBkQVJAyVmm8zqiE)
+[Archivos SRTM Colombia](https://drive.google.com/open?id=1P6qqBz8Pkx_i99i4EBkQVJAyVmm8zqiE)
